@@ -1,5 +1,5 @@
 library(pzfx)
-data <- read_pzfx("C:/Users/Ryohei Yagi/Documents/RY-Science/BTF_Project_Outcome/Project_Results/Dm CPDT/221215 KcM3 #1232543 cell population doubling time_XZ.pzfx")
+data <- read_pzfx("C:/Users/Ryohei Yagi/Documents/RY-Science/BTF_Project_Outcome/Project_Results/DmCell_CPDT/221215 KcM3 #1232543 cell population doubling time_XZ.pzfx")
 names(data)
 library(conflicted)
 conflict_prefer("filter", "dplyr")
